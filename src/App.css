@@ -1,0 +1,40 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  cursor: crosshair;
+  font-family: "classic";
+}
+
+.sidebar {
+  width: 420px;
+  padding: 30px;
+  background: #f4f4f5;
+  border-right: 1px solid #ddd;
+}
+
+.palette {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-items: space-evenly;
+}
+
+.preview {
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.canvas-area {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;  
+  gap: 20px;
+  margin-top: 30px;
+}

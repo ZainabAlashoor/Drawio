@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "classic";
+  src: url("./assets/font/Classic Milky.otf") format("opentype");
+}
+body {
+  margin: 0;
+  font-family: "classic";
+  background: #f4f4f5;
+  color: #222
+}
+
+button {
+  font-family: "classic";
+  cursor: pointer;
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+}
